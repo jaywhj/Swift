@@ -49,10 +49,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tv:UITableView, cellForRowAtIndexPath indexPath:NSIndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tv.dequeueReusableCellWithIdentifier(identify, forIndexPath: indexPath) as UITableViewCell
+        let cell:UITableViewCell = tv.dequeueReusableCellWithIdentifier(identify, forIndexPath: indexPath) as! UITableViewCell
         
         let user = data[indexPath.row]
-        cell.textLabel.text = "用户名:" + user.name! + "   密码:" + user.password!
+        cell.textLabel!.text = "用户名:" + user.name! + "   密码:" + user.password!
 
         return cell
     }

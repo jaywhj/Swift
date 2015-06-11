@@ -80,7 +80,7 @@ let someObjects: [AnyObject] = [
     Movie(name: "Moon", director: "Duncan Jones"),
     Movie(name: "Alien", director: "Ridley Scott")
 ]
-for movie in someObjects as [Movie] {
+for movie in someObjects as! [Movie] {
     println("Movie: '\(movie.name)', dir. \(movie.director)")
 }
 

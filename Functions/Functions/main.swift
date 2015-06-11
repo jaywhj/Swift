@@ -52,7 +52,7 @@ sayGoodbye("Dave")
 //1.3.1被调用时，一个函数的返回值可以被忽略
 func printAndCount(stringToPrint: String) -> Int {
     println(stringToPrint)
-    return countElements(stringToPrint) //定义了有返回值的函数必须返回一个值
+    return count(stringToPrint) //定义了有返回值的函数必须返回一个值
 }
 func printWithoutCounting(stringToPrint: String) {
     printAndCount(stringToPrint)        //printAndCount 函数的返回值可以被忽略
@@ -186,8 +186,8 @@ println(arithmeticMean(3, 8, 19))
 //4.常量参数和变量参数（Constant and Variable Parameters）
 //函数参数默认是常量。但是有时候，如果函数中传入的参数可以修改的话将很有用。你可以通过指定一个或多个参数为变量参数，从而避免自己在函数中定义新的变量。变量参数不是常量，你可以在函数中把它当做新的可修改副本来使用。
 //通过在参数名前加关键字 var 来定义变量参数
-func alignRight(var string: String, count: Int, pad: Character) -> String {
-    let amountToPad = count - countElements(string)
+func alignRight(var string: String, countE: Int, pad: Character) -> String {
+    let amountToPad = countE - count(string)
     for _ in 1...amountToPad {
         string.insert(pad, atIndex: string.startIndex)
 //        string = pad + string

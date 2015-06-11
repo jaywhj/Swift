@@ -44,7 +44,7 @@ protocol SomeProtocol {
     var mustBeSettable : Int { get set }
     var doesNotNeedToBeSettable: Int { get }
     //通常在协议的定义中使用class前缀表示该属性为类成员；在枚举和结构体实现协议时中，需要使用static关键字作为前缀。
-    class var someTypeProperty: Int { get set }
+    static var someTypeProperty: Int { get set }
 }
 
 
@@ -253,11 +253,11 @@ as用以强制向下转型。
 class Circle: HasArea {
     let pi = 3.1415927
     var radius: Double
-    var area: Double { return pi * radius * radius }
+   @objc  var area: Double { return pi * radius * radius }
     init(radius: Double) { self.radius = radius }
 }
 class Country: HasArea {
-    var area: Double
+    @objc var area: Double
     init(area: Double) { self.area = area }
 }
 class Animal {
@@ -294,7 +294,7 @@ for object in objects {
     func increment() {
         if let amount = dataSource?.incrementForCount?(count) {
             count += amount
-        } else if let amount = dataSource?.fixedIncrement? {
+        } else if let amount = dataSource?.fixedIncrement {
             count += amount
         }
     }

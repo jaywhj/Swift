@@ -72,12 +72,12 @@ let constantString = "Highlander"
 
 
 //6、字符计数
-//Swift 中的字符在一个字符串中 并不一定占用相同的内存空间，需使用全局函数countElements计算一个字符串中字符的数量
+//Swift 中的字符在一个字符串中 并不一定占用相同的内存空间，需使用全局函数count计算一个字符串中字符的数量
 let unusualMenagerie = "Koala , Snail , Penguin , Dromedary "
-println("unusualMenagerie has \(countElements(unusualMenagerie)) characters")
+println("unusualMenagerie has \(count(unusualMenagerie)) characters")
 // prints "unusualMenagerie has 40 characters"
 /*
-注意：通过 countElements 返回的字符数量并不总是与包含相同字符的 NSString 的 length 属性相同。NSString 的 length 属性是基于利用 UTF-16 编码的数目，而不是基于 Unicode 字符
+注意：通过 count 返回的字符数量并不总是与包含相同字符的 NSString 的 length 属性相同。NSString 的 length 属性是基于利用 UTF-16 编码的数目，而不是基于 Unicode 字符
 */
 
 

@@ -15,13 +15,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let app = UIApplication.sharedApplication().delegate as AppDelegate
+        let app = UIApplication.sharedApplication().delegate as! AppDelegate
         let context = app.managedObjectContext!
         
         var error:NSError?
         
         //创建User对象
-        var oneUser = NSEntityDescription.insertNewObjectForEntityForName("User", inManagedObjectContext: context) as User
+        var oneUser = NSEntityDescription.insertNewObjectForEntityForName("User", inManagedObjectContext: context) as! User
         oneUser.userID = 1
         oneUser.userEmail = "junfei521@126.com"
         oneUser.userPawd = "18500"
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         fetchRequest.entity = entity
         
         var fetchedObjects:[AnyObject]? = context.executeFetchRequest(fetchRequest, error: &error)
-        for info:User in fetchedObjects as [User] {
+        for info:User in fetchedObjects as! [User] {
             
             println("userID = \(info.userID)")
             println("userEmail = \(info.userEmail)")

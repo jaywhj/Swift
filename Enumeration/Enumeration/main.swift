@@ -95,7 +95,7 @@ var queue: dispatch_queue_t =  dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY
 //    println(NSThread.currentThread().isMainThread ? "这是主线程" : "这是后台线程")
 
     //第一个参数为次数；第三个参数 block块里面的形参是区分第几次。
-    dispatch_apply(UInt(array.count), queue, { (index: UInt) -> Void in
+    dispatch_apply(array.count, queue, { (index: Int) -> Void in
         println(String(index) + " --- " + array[Int(index)])
     })
     

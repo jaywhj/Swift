@@ -14,7 +14,7 @@ class Database {
     let dbName = "mydatabase.sqlite"
     
     //不透明指针，对应C语言里面的void *，这里指sqlite3指针
-    private let db:COpaquePointer = nil
+    private var db:COpaquePointer = nil
     
     
     //Database 单例，第一种写法
