@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "981F0932193F7094002CB675"
+               BlueprintIdentifier = "9813654C1B292CAA003426F5"
                BuildableName = "HelloUI.app"
                BlueprintName = "HelloUI"
+               ReferencedContainer = "container:HelloUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "981365611B292CAA003426F5"
+               BuildableName = "HelloUITests.xctest"
+               BlueprintName = "HelloUITests"
                ReferencedContainer = "container:HelloUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "981F0944193F7094002CB675"
+               BlueprintIdentifier = "981365611B292CAA003426F5"
                BuildableName = "HelloUITests.xctest"
                BlueprintName = "HelloUITests"
                ReferencedContainer = "container:HelloUI.xcodeproj">
@@ -42,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "981F0932193F7094002CB675"
+            BlueprintIdentifier = "9813654C1B292CAA003426F5"
             BuildableName = "HelloUI.app"
             BlueprintName = "HelloUI"
             ReferencedContainer = "container:HelloUI.xcodeproj">
@@ -58,10 +72,11 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "981F0932193F7094002CB675"
+            BlueprintIdentifier = "9813654C1B292CAA003426F5"
             BuildableName = "HelloUI.app"
             BlueprintName = "HelloUI"
             ReferencedContainer = "container:HelloUI.xcodeproj">
@@ -76,10 +91,11 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "981F0932193F7094002CB675"
+            BlueprintIdentifier = "9813654C1B292CAA003426F5"
             BuildableName = "HelloUI.app"
             BlueprintName = "HelloUI"
             ReferencedContainer = "container:HelloUI.xcodeproj">

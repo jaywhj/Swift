@@ -98,6 +98,7 @@
 		982EA8161A13592B0013D2F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "www.iphonetrain.com 无限互联3G学院";
 				TargetAttributes = {
@@ -251,6 +252,7 @@
 				982EA8271A13592B0013D2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

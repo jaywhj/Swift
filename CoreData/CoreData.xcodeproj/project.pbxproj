@@ -162,6 +162,7 @@
 		9826B2AC1A11FAD70089807A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "www.iphonetrain.com 无限互联3G学院";
 				TargetAttributes = {
@@ -413,6 +414,7 @@
 				9826B2D81A11FAD70089807A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9826B2D91A11FAD70089807A /* Build configuration list for PBXNativeTarget "CoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +423,7 @@
 				9826B2DB1A11FAD70089807A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

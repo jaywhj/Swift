@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  HelloUI
 //
-//  Created by JayWon on 14/6/4.
-//  Copyright (c) 2014年 www.iphonetrain.com 无限互联3G学院. All rights reserved.
+//  Created by JayWon on 15/6/11.
+//  Copyright (c) 2015年 JayWon. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-                            
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

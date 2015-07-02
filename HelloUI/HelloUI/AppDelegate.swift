@@ -2,16 +2,17 @@
 //  AppDelegate.swift
 //  HelloUI
 //
-//  Created by JayWon on 14/6/4.
-//  Copyright (c) 2014年 www.iphonetrain.com 无限互联3G学院. All rights reserved.
+//  Created by JayWon on 15/6/11.
+//  Copyright (c) 2015年 JayWon. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-                            
+
     var window: UIWindow?
+
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.

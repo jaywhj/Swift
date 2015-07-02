@@ -176,6 +176,7 @@
 		98D9DEC41A0B961900D279E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "www.iphonetrain.com 无限互联3G学院";
 				TargetAttributes = {
