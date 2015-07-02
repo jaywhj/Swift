@@ -10,4 +10,6 @@
 
 ==========
 # Swift Demo
-仅供大家参考学习，Demo中语法基于swift 1.2，需要swift 2.0的，可以点击 [Swift 2](https://github.com/jaywhj/Swift2)
+仅供大家参考学习，Demo中语法基于swift 1.2
+
+需要swift 2.0的，可以点击 [Swift 2](https://github.com/jaywhj/Swift2)
