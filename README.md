@@ -1,4 +1,3 @@
-# ～iOS哪家强，无限互联找老汪～
 #如有技术问题，咨询老汪私人微信：wanghj29
 
 ![image](http://avatar.csdn.net/0/E/4/1_cococoolwhj.jpg)
